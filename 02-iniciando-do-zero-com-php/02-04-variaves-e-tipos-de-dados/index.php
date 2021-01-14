@@ -43,66 +43,66 @@ var_dump([
 /**
  * [ tipo boleano ] true | false
  */
-fullStackPHPClassSession("tipo boleano", __LINE__);
-
-$true = true;
-$false = false;
-
-var_dump($true, $false);
-
-$bestAge = ($userAge > 50;
-var_dump($bestAge);
-
-$a = 0;
-$b = 0.0;
-$c = "";
-$d = [];
-$e = null;
-
-var_dump($a, $b, $c, $d, $e);
-
-if ($a || $b || $c || $d || $e) {
-  var_dump(expression: true);
-} else {
-  var_dump(expression: false);
-}
+// fullStackPHPClassSession("tipo boleano", __LINE__);
+//
+// $true = true;
+// $false = false;
+//
+// var_dump($true, $false);
+//
+// $bestAge = ($userAge > 50);
+// var_dump($bestAge);
+//
+// $a = 0;
+// $b = 0.0;
+// $c = "";
+// $d = [];
+// $e = null;
+//
+// var_dump($a, $b, $c, $d, $e);
+//
+// if ($a || $b || $c || $d || $e) {
+//   var_dump(expression: true);
+// } else {
+//   var_dump(expression: false);
+// }
 
 
 
 /**
  * [ tipo callback ] call | closure
  */
-fullStackPHPClassSession("tipo callback", __LINE__);
-
-$code = "<article><h1>Um call User Function!</h1></article>";
-$codeClear = call_user_func( function: "strip_tags", $code);
-
-$codeMore = function ($code)
-{
-  var_dump($code);
-}
-$codeMore( code: "#BoraProgramar!");
+// fullStackPHPClassSession("tipo callback", __LINE__);
+//
+// $code = "<article><h1>Um call User Function!</h1></article>";
+// $codeClear = call_user_func( function: "strip_tags", $code);
+//
+// $codeMore = function ($code)
+// {
+//   var_dump($code);
+// }
+// $codeMore( code: "#BoraProgramar!");
 
 
 
 /**
  * [ outros tipos ] string | array | objeto | numérico | null
  */
-fullStackPHPClassSession("outros tipos", __LINE__);
-
-$string = "Olá Mundo";
-$$array = [$tring];
-$object = new StdClass();
-$object ->hello = $string;
-$null = null;
-$int = 12132;
-$float = 1.23213;
-
-var_dump([
-  $string,
-  $$array,
-  $object,
-  $null,
-  $int,
-  $float
-])
+// fullStackPHPClassSession("outros tipos", __LINE__);
+//
+// $string = "Olá Mundo";
+// $$array = [$tring];
+// $object = new StdClass();
+// $object ->hello = $string;
+// $null = null;
+// $int = 12132;
+// $float = 1.23213;
+//
+// var_dump([
+//   $string,
+//   $$array,
+//   $object,
+//   $null,
+//   $int,
+//   $float
+// ])
