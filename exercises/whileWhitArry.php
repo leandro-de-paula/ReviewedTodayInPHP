@@ -29,3 +29,21 @@ while ($i <= $limite) {
 }
 
 print_r($valoresInteiros);
+echo count($valoresInteiros);
+
+
+$valoresInteirosPassados = [10,20,30,40,50,60,70,80,90,100];
+$limiteFinal = 100;
+$i = 0;
+$numeroAtual = 0;
+
+while ($i < count($valoresInteirosPassados)) {
+    $numeroAtual = $valoresInteirosPassados[$i];
+    if ($numeroAtual == 30 || $numeroAtual == 40) {
+        $i++;
+        continue;
+    }
+
+    echo "Elemento: $valoresInteirosPassados[$i] \n";
+    $i++;
+}
