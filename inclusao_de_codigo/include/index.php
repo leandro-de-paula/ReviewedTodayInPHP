@@ -1,6 +1,6 @@
 <?php
 include "file1.php";
-$index = "Este é o Index";
+$index = "Este é o Index ";
 $array_includes = [$file1, $file2, $index];
 
 echo "<pre>";

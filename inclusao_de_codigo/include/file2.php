@@ -1,2 +1,2 @@
 <?php
-$file2 = "Este é o arquivo 2";
+$file2 = "Este é o arquivo 2 ";
